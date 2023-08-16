@@ -1,0 +1,79 @@
+QFrame#exhibitionFrame{
+    border-radius:15px;
+    background-color:rgba(255,255,255,255);
+    background-color:qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 255, 255,180), stop:1 rgba(255, 255, 255,75));
+}
+
+QFrame#exhibitionTitleFrame{
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255,180), stop:1 rgba(0,0,0,20));
+}
+
+QLabel#exhibitionTitle{
+    background-color:rgba(255,255,255,0);color:rgba(0,0,0,255)
+}
+
+QFrame#imageExhibition{
+    background-color:rgba(255,255,255,0);
+    padding:0px;border:0px
+}
+
+QFrame#exhibitionArea{
+    background-color:rgba(255,255,255,0);
+    padding:0px;border:0px
+}
+
+
+
+/*
+ImageShowLabel#imageLabel{
+    background-color:rgba(236,233,230,70);
+    border-radius:12px;
+}
+*/
+
+QLabel#gridLabel{
+    background-color:rgba(255,255,255,70);
+    border-radius:16px;
+    font-family:Consolas;
+}
+
+
+QLabel#imageTitleLabel{
+    background-color:rgba(255,255,255,0);
+    font:18px;
+    font-family:Arial;
+    padding:6px;
+    font-family:Consolas;
+}
+
+
+
+QLineEdit#pathLine{
+    background-color:rgba(255,255,255,255);
+    border-radius:8px;
+    border-radius:8px;
+    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255,180), stop:1 rgba(0,0,0,20));
+    font:14px;
+    font-family:Consolas;
+    padding:6px;
+}
+
+
+QPushButton#selectButton{
+    background-color:rgba(255,255,255,255);
+    border-radius:8px;
+    border-radius:8px;
+    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255,180), stop:1 rgba(0,0,0,20));
+    font:14px;
+    padding:0px 12px 0px 12px;
+}
+
+QPushButton#selectButton:hover{
+    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(151,150,240,30), stop:1 rgba(251,199,212,30));
+}
+
+QPushButton#selectButton:pressed{
+    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(151,150,240,66), stop:1 rgba(251,199,212,66));
+}

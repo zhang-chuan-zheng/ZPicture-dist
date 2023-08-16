@@ -1,0 +1,182 @@
+QWidget#mappingColorCard{
+   background-color:rgba(255,255,255,0);
+}
+
+QFrame#mainFrame{
+    border-radius:15px;
+
+    background-image:url(core/front/images/background/mainWindow-lineargradient-101-223-201.png);
+
+    /*
+    background-image:url(../../images/background/mainWindow-lineargradient-101-223-201.png);
+    */
+    background-color: qlineargradient(x1:0, y1:1, x2:1, y2:0, stop:0 rgba(101, 223, 201, 200), stop:1 rgba(108, 219, 235, 200));
+}
+
+QLabel#cardTitle{
+    background-color:rgba(255,255,255,255);
+    border-bottom-right-radius:12px;
+    border-bottom-left-radius:12px;
+    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255,255,255,180), stop:1 rgba(0,0,0,20));
+    color:black;
+    /*
+    color:qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 rgba(151,150,240,222), stop:1 rgba(251,199,212,222));
+
+    这两种情况无法实现预想效果
+
+    color:qradialgradient(cx:0.5, cy:0.5, radius:0.2, fx:0.5, fy:0.5, stop:0 #9796F0, stop:0.5 #FBC7D4, stop:1 #9796F0);
+    */
+    font:bold 18px;
+    padding:6px;
+}
+/*
+ColorLabel{
+    border-radius:3px;
+}
+*/
+
+QLabel#title{
+    color:rgba(72,70,109,255);
+    height:24px;
+    font:bold 18px;
+    border:dashed;
+    border-bottom:2px dashed;
+    border-radius:6px;
+    padding:8px;
+}
+
+QFrame#colorArgFrame{
+    border:4px solid qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255,110,127,220), stop:1 rgba(191,233,255,222));
+    border-radius:8px;
+}
+
+
+
+QComboBox#colorModeCombo{
+    background-color:rgba(255,255,255,255);
+    border-radius:12px;
+    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255,255,255,180), stop:1 rgba(0,0,0,20));
+    /*
+    color:black;
+    */
+    color:rgba(72,70,109,255);
+    font:bold 18px;
+    padding:4px 4px 4px 8px;
+    font-family:Consolas;
+}
+
+QComboBox#colorModeCombo::drop-down{
+    width: 26px;
+    border-left-width:0px;
+}
+
+QComboBox#colorModeCombo::down-arrow{
+    width:26px;
+    image:url(core/front/images/icon/right-arrow-2c2c2c.png);
+}
+
+QComboBox#colorModeCombo::down-arrow:on{
+    image:url(core/front/images/icon/down-arrow-2c2c2c.png);
+}
+
+
+QComboBox#colorModeCombo QAbstractItemView{
+    outline:0px solid gray;
+    padding:4px;
+    color:rgba(72,70,109,255);
+    font:16px;
+    font-family:Consolas;
+    background-color:rgba(255,255,255,255);
+    border-radius:8px;
+    background-color:qlineargradient(x1:1, y1:0, x2:0, y2:1, stop:0 rgba(236,233,230,222), stop:1 rgba(255,255,255,166));
+}
+
+
+QComboBox#colorModeCombo QAbstractItemView::item{
+	height: 28px;
+}
+
+QComboBox QAbstractItemView::item:selected{
+    border-radius:8px;
+    color: rgb(31,163,246);
+	background-color: qlineargradient(x1:0, y1:1, x2:1, y2:0, stop:0 rgba(101, 223, 201, 200), stop:1 rgba(108, 219, 235, 200));
+}
+
+
+QLabel#itemTitle{
+    color:rgba(72,70,109,255);
+    font:bold 18px;
+    font-family:Consolas;
+}
+
+QLineEdit#colorEdit{
+    color:rgba(246,65,108,255);
+    background-color:rgba(255,255,255,255);
+    border-radius:8px;
+    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255,180), stop:1 rgba(0,0,0,20));
+    font:18px;
+    font-family:Consolas;
+    padding:6px;
+}
+
+QLineEdit#colorEdit1{
+    color:rgba(114,114,114,255);
+    background-color:rgba(255,255,255,255);
+    border-radius:8px;
+    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255,180), stop:1 rgba(0,0,0,20));
+    font:18px;
+    font-family:Consolas;
+    padding:6px;
+}
+
+
+QLabel#blankLabel{
+    color:rgba(72,70,109,255);
+    font:bold 18px;
+    font-family:Consolas;
+}
+
+QFrame#showFrame{
+    border:2px dashed qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255,110,127,220), stop:1 rgba(191,233,255,222));
+    border-radius:8px;
+    padding:0px;
+}
+
+/*
+ColorLabel#colorShowLabel{
+    border-radius:17px;
+
+}
+*/
+
+QPushButton#shutDownButton{
+    background-color:rgba(255,255,255,255);
+    border-radius:8px;
+    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255,180), stop:1 rgba(0,0,0,20));
+    font:bold 18px;
+    font-family:Consolas;
+}
+
+QPushButton#shutDownButton:hover{
+    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(151,150,240,30), stop:1 rgba(251,199,212,30));
+}
+
+QPushButton#shutDownButton:pressed{
+    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(151,150,240,66), stop:1 rgba(251,199,212,66));
+}
+
+QPushButton#runButton{
+    background-color:rgba(255,255,255,255);
+    border-radius:8px;
+    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255,180), stop:1 rgba(0,0,0,20));
+    font:bold 18px;
+    font-family:Consolas;
+}
+
+QPushButton#runButton:hover{
+    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(151,150,240,30), stop:1 rgba(251,199,212,30));
+}
+
+QPushButton#runButton:pressed{
+    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(151,150,240,66), stop:1 rgba(251,199,212,66));
+}

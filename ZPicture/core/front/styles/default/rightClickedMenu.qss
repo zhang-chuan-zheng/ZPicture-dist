@@ -1,0 +1,31 @@
+QMenu{
+    border-radius:5px;
+    background-color:rgba(255,255,255,88);
+    /*
+    background-image:url(core/front/images/background/mainWindow-lineargradient-101-223-201.png);
+    */
+    background-color:qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255,255,255,175), stop:1 rgba(255,255,255,75));
+    border-color:rgba(255, 255, 255,150);
+    padding:4px;
+    margin:8px;
+}
+
+QMenu::item{
+    height:28px;
+    font-size:14px;
+}
+QMenu::item:selected:enabled{
+    background:lightgray;
+    background-color:qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 255, 255,180), stop:1 rgba(255,255,255,75));
+    border-radius:3px;
+}
+QMenu::item:selected:enabled{
+    color:rgba(101, 223, 201, 200);
+}
+QMenu::item:selected:!enabled{
+    background:transparent;
+}
+QMenu::item:text{
+    padding-left:23px;
+    padding-right:43px;
+}

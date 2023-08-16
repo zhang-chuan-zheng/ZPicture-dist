@@ -1,0 +1,8 @@
+{
+  "userAvatarDir": "ui/app/navigation/resource/userAvatar/",
+  "userAvatarName": "shoko.png",
+  "userName": "zcz",
+  "iconPath": "ui/app/navigation/resource/logo.png",
+  "styleDir": "ui/app/Style/",
+  "navigateQSS": "dark/navigate.qss"
+}
