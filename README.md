@@ -1,6 +1,7 @@
 # ZPicture-dist
 
-## 2023年08月16日 [ZPicture0.0](https://github.com/zhang-chuan-zheng/ZPicture-dist/releases)
+## 2023年08月16日 
+[ZPicture0.0](https://github.com/zhang-chuan-zheng/ZPicture-dist/releases)
 ### 修改了如下的bug
 + 组合图标签不从a开始，组合图图组标签出现b1之后出现c类似问题
 
@@ -8,27 +9,32 @@
 + 优化了展示区的预览区显示逻辑
 + 组合图的限制条件
 
-## 2023年7月15日：
+## 2023年7月15日
+[ZPicture0.0](https://github.com/zhang-chuan-zheng/ZPicture-dist/releases)
 + 完成了批量修改文件名的功能；
 + 扩大了窗口尺寸;
 + 修改了填写前后缀初始值时卡顿的问题。
 
 ## 2023年07月21日
+[ZPicture0.0](https://github.com/zhang-chuan-zheng/ZPicture-dist/releases)
 + 新增对图片尺寸修改的支持
 + 新增对图片批量剪切的支持
 
 ## 2023年08年12日
+[ZPicture0.0](https://github.com/zhang-chuan-zheng/ZPicture-dist/releases)
 + 新增对Mapping图改色的功能
 + 新增图片合并的功能
 + 完成了设计初的所有功能
 + 优化了某些UI
 
 ## 2023年08年13日
+[ZPicture0.0](https://github.com/zhang-chuan-zheng/ZPicture-dist/releases)
 + 优化了组合图窗口关闭后的预览区单图显示尺寸
 + 优化了组合图标签偏移逻辑
 
 
 ## 2023年08月15日
+[ZPicture0.0](https://github.com/zhang-chuan-zheng/ZPicture-dist/releases)
 + 新增了图片展示区重置单图尺寸的函数；
 + 优化了图片名称的展示逻辑；
 + 优化了寻找图片根目录的逻辑；
