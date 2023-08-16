@@ -1,6 +1,6 @@
 # ZPicture-dist
 
-## 2023年08月16日 ZPicture0.0(https://github.com/zhang-chuan-zheng/ZPicture-dist/releases)
+## 2023年08月16日 [ZPicture0.0](https://github.com/zhang-chuan-zheng/ZPicture-dist/releases)
 ### 修改了如下的bug
 + 组合图标签不从a开始，组合图图组标签出现b1之后出现c类似问题
 
