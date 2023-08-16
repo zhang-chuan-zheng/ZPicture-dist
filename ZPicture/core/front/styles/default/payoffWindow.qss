@@ -1,9 +1,0 @@
-QFrame#payoffMainFrame{
-    border-radius:15px;
-    background-color:rgba(255,255,255,255);
-    background-color:qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:1, fy:0.5, stop:0 rgba(255, 255, 255,180), stop:1 rgba(255, 255, 255,75));
-}
-
-QLabel#payoffTip{
-    background-color:rgba(255,255,255,0);color:rgba(0,0,0,255)
-}

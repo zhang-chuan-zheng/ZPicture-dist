@@ -1,9 +1,0 @@
-<RCC>
-  <qresource prefix="icon">
-    <file>images/icon/shutDown.svg</file>
-    <file>images/icon/max.svg</file>
-    <file>images/icon/min.svg</file>
-    <file>images/icon/normal.svg</file>
-    <file>images/icon/Z.svg</file>
-  </qresource>
-</RCC>
