@@ -1,5 +1,10 @@
 # ZPicture-dist
 
+##  2023年08月23日
+[ZPicture0.1]()
+### 对如下功能进行优化：
+- 优化了组合图策略
+
 ## 2023年08月16日 
 [ZPicture0.0](https://github.com/zhang-chuan-zheng/ZPicture-dist/releases)
 ### 修改了如下的bug
