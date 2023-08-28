@@ -1,5 +1,16 @@
 # ZPicture-dist
 
+## 2023年08月28日
+[ZPicture0.2](https://github.com/zhang-chuan-zheng/ZPicture-dist/releases/tag/ZPictureV1)
+###  新版本特性
+### 组合图
+1.新增标签对'-'、'/'以及'_'的支持;
+2.修改了对16位单通道TIFF图的支持。
+### UI
+1.修改了软件初始窗口的尺寸
+2.修复了最大化按钮闪退的情况
+
+
 ##  2023年08月23日
 [ZPicture0.1](https://github.com/zhang-chuan-zheng/ZPicture-dist/releases/tag/dist)
 ### 对如下功能进行优化：
