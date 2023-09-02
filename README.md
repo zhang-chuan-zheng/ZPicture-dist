@@ -1,7 +1,7 @@
 # ZPicture-dist
 
 ##  2023年09月02日
-[ZPicture1.0](https://github.com/zhang-chuan-zheng/ZPicture-dist/releases/tag/ZPicture)
+[ZPicture1.0](https://github.com/zhang-chuan-zheng/ZPicture-dist/releases/tag/ZPicture1.0)
 ### 新版本特性
 ### 日志区
 - 支持日志功能，功能开启、关闭及文件保存提示；
